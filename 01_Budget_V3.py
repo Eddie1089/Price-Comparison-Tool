@@ -6,6 +6,7 @@ if check_float == True:
     print("Your budget is: {} dollars".format(budget))
 
 else:
+    print("Please enter your budget again ({} input)".format(check_float))
     budget = input("What is your budget? ")
     print("Your budget is: {} dollars".format(budget))
 
@@ -13,8 +14,7 @@ else:
     print(check_float)
 
 
-
-
+budget_list = [budget]
 
 
 
