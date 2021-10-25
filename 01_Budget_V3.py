@@ -1,20 +1,28 @@
-budget = input("What is your budget? ")
 
-check_float = isinstance(budget, float)
+def intcheck(question, low, high):
+    valid = False
+    while not valid:
+        error = "Please enter you budget again".format(low, high)
+        try:
+            response = float(input("Enter you budget (e.g $15.60)? $"))
+            if 1 <= response <= 1000:
+                return response
+            else:
+                print(error)
+                print()
 
-if check_float == True:
-    print("Your budget is: {} dollars".format(budget))
-
-else:
-    print("Please enter your budget again ({} input)".format(check_float))
-    budget = input("What is your budget? ")
-    print("Your budget is: {} dollars".format(budget))
-
-    check_float = isinstance(budget, float)
-    print(check_float)
+        except ValueError:
+            print(error)
 
 
-budget_list = [budget]
+
+
+budget = intcheck ("Enter you budget (e.g 15)? ",1, 1000)
+print("Your budget is: ${:.2f}".format(budget))
+
+budget = [budget]
+
+
 
 
 
