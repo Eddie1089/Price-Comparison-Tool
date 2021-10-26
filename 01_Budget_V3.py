@@ -15,16 +15,7 @@ def number_check(question, low, high):
             print(error)
 
 
-budget = number_check ("Enter you budget (e.g 15)? ",1, 1000)
+budget = number_check("Enter you budget (e.g 15)? ", 1, 1000)
 print("Your budget is: ${:.2f}".format(budget))
 
 budget = [budget]
-
-
-
-
-
-
-
-
-
