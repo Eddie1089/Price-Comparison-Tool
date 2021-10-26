@@ -5,7 +5,7 @@ def number_check(question, low, high):
     while not valid:
         error = "Please enter you budget again (Incorrect input)".format(low, high)
         try:
-            response = float(input("Enter you budget (e.g $15.60)? $"))
+            response = float(input("Enter your budget (e.g $15.60)? $"))
             if 1 <= response <= 1000:
                 return response
             else:
@@ -16,12 +16,13 @@ def number_check(question, low, high):
             print(error)
 
 
-budget = number_check("Enter you budget (e.g 15)? ", 1, 1000)
+budget = number_check("Enter your budget (e.g 15)? ", 1, 1000)
 print("Your budget is: ${:.2f}".format(budget))
 
-# Lists
-budget = [budget]
 
+# Lists
+
+float(budget)
 
 # Names of products
 product_1_name = input("What is the name of this product? ").title()
@@ -90,10 +91,31 @@ print()
 # Recommendations
 print(" *** RECOMMENDATIONS *** ")
 
-if
+print()
 
+if product_1_unit_price <= budget:
+    print("{}:      Cost: ${:.2f}       Unit Price: ${:.3f}".format
+          (product_1_name, product_1_cost, product_1_unit_price))
 
+if product_2_unit_price <= budget:
+    print("{}:      Cost: ${:.2f}       Unit Price: ${:.3f}".format
+          (product_2_name, product_2_cost, product_2_unit_price))
 
+if product_3_unit_price <= budget:
+    print("{}:      Cost: ${:.2f}       Unit Price: ${:.3f}".format
+          (product_3_name, product_3_cost, product_3_unit_price))
 
+if product_4_unit_price <= budget:
+    print("{}:      Cost: ${:.2f}       Unit Price: ${:.3f}".format
+          (product_4_name, product_4_cost, product_4_unit_price))
 
+if product_5_unit_price <= budget:
+    print("{}:      Cost: ${:.2f}       Unit Price: ${:.3f}".format
+          (product_5_name, product_5_cost, product_5_unit_price))
+
+if product_6_unit_price <= budget:
+    print("{}:      Cost: ${:.2f}       Unit Price: ${:.3f}".format
+          (product_6_name, product_6_cost, product_6_unit_price))
+
+print()
 
