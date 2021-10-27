@@ -15,9 +15,20 @@ def number_check(question, low, high):
         except ValueError:
             print(error)
 
+
+# Header to tell the user what to do
+print(" *** INSTRUCTIONS *** ")
+
+# To make the output look nice
+print()
+
+# To tell the user what to do
+print("Answer the questions as the computer tells you too, clicking the <enter> when you are done with that question.")
+
+# To make the output look nice
+print()
+
 # Asks the user what their budget is
-
-
 budget = number_check("Enter your budget (e.g 15)? ", 1, 1000)
 
 # Gives the feedback from their budget input
@@ -166,14 +177,8 @@ products_weights_kg = [product_1_weight_kg, product_2_weight_kg, product_3_weigh
 products_unit_prices = [product_1_unit_price, product_2_unit_price, product_3_unit_price, product_4_unit_price,
                         product_5_unit_price, product_6_unit_price]
 
-
-# Sorting of the recommendations?
-
-
-# Putting all of the lists into a CSV file
+# List of all of the other lists (Major_List)
+Major_List = [product_names, products_weights_g, products_costs, products_weights_kg, products_unit_prices]
 
 # To make the output look nice
 print()
-
-
-
