@@ -16,6 +16,15 @@ def number_check(question, low, high):
             print(error)
 
 
+# To make the output look nice
+print()
+
+# Printing program name
+print("PRICE COMPARISON TOOL")
+
+# To make the output look nice
+print()
+
 # Header to tell the user what to do
 print(" *** INSTRUCTIONS *** ")
 
@@ -23,7 +32,12 @@ print(" *** INSTRUCTIONS *** ")
 print()
 
 # To tell the user what to do
-print("Answer the questions as the computer tells you too, clicking the <enter> when you are done with that question.")
+print("Answer the questions as the computer tells you too. Clicking the <enter> key when you are done with that "
+      "question to move on to the next done question.")
+print("After you have answered all of the questions you will presented with table that will show you all the "
+      "information that you have entered.")
+print("And some computer generated numbers there as well. The computer will also recommend which of your "
+      "entered products you should buy based of the unit price per kilogram.")
 
 # To make the output look nice
 print()
