@@ -61,12 +61,12 @@ product_6_name = input("What is the name of this product? ").title()
 
 
 # Weights of products in Grams (inputted as a integer)
-product_1_weight_g = int(input("What is the weight of the {} in grams? ".format(product_1_name)))
-product_2_weight_g = int(input("What is the weight of the {} in grams? ".format(product_2_name)))
-product_3_weight_g = int(input("What is the weight of the {} in grams? ".format(product_3_name)))
-product_4_weight_g = int(input("What is the weight of the {} in grams? ".format(product_4_name)))
-product_5_weight_g = int(input("What is the weight of the {} in grams? ".format(product_5_name)))
-product_6_weight_g = int(input("What is the weight of the {} in grams? ".format(product_6_name)))
+product_1_weight_g = int(input("What is the weight of the {} in grams (e.g. 638)? ".format(product_1_name)))
+product_2_weight_g = int(input("What is the weight of the {} in grams (e.g. 638)? ".format(product_2_name)))
+product_3_weight_g = int(input("What is the weight of the {} in grams (e.g. 638)? ".format(product_3_name)))
+product_4_weight_g = int(input("What is the weight of the {} in grams (e.g. 638)? ".format(product_4_name)))
+product_5_weight_g = int(input("What is the weight of the {} in grams (e.g. 638)? ".format(product_5_name)))
+product_6_weight_g = int(input("What is the weight of the {} in grams (e.g. 638)? ".format(product_6_name)))
 
 # Converting grams to kilograms (divide by 1000)
 product_1_weight_kg = product_1_weight_g / 1000
