@@ -194,5 +194,6 @@ products_unit_prices = [product_1_unit_price, product_2_unit_price, product_3_un
 # List of all of the other lists (Major_List)
 Major_List = [product_names, products_weights_g, products_costs, products_weights_kg, products_unit_prices]
 
+
 # To make the output look nice
 print()
