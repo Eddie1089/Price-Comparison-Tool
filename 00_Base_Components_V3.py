@@ -169,6 +169,11 @@ if product_6_unit_price <= budget:
     print("{}:      Cost: ${:.2f}       Unit Price: ${:.2f}".format
           (product_6_name, product_6_cost, product_6_unit_price))
 
+# If none of the if statements above requirements are meet
+else:
+    print(" <> There are no recommendations <> ")
+
+
 # Lists of all of the users inputted data
 
 # Product Names List
