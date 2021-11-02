@@ -51,6 +51,12 @@ print("Your budget is: ${:.2f}".format(budget))
 # Defines the budget variable as a float
 float(budget)
 
+# To make the output look nice
+print()
+
+# Section header
+print("NAMES OF PRODUCTS")
+
 # Names of products (inputted as a string)
 product_1_name = input("What is the name of this product? ").title()
 product_2_name = input("What is the name of this product? ").title()
@@ -59,6 +65,12 @@ product_4_name = input("What is the name of this product? ").title()
 product_5_name = input("What is the name of this product? ").title()
 product_6_name = input("What is the name of this product? ").title()
 
+# To make the output look nice
+print()
+
+
+# Section header
+print("WEIGHTS OF PRODUCTS")
 
 # Weights of products in Grams (inputted as a integer)
 product_1_weight_g = int(input("What is the weight of the {} in grams (e.g. 638)? ".format(product_1_name)))
@@ -68,6 +80,9 @@ product_4_weight_g = int(input("What is the weight of the {} in grams (e.g. 638)
 product_5_weight_g = int(input("What is the weight of the {} in grams (e.g. 638)? ".format(product_5_name)))
 product_6_weight_g = int(input("What is the weight of the {} in grams (e.g. 638)? ".format(product_6_name)))
 
+# To make the output look nice
+print()
+
 # Converting grams to kilograms (divide by 1000)
 product_1_weight_kg = product_1_weight_g / 1000
 product_2_weight_kg = product_2_weight_g / 1000
@@ -75,6 +90,10 @@ product_3_weight_kg = product_3_weight_g / 1000
 product_4_weight_kg = product_4_weight_g / 1000
 product_5_weight_kg = product_5_weight_g / 1000
 product_6_weight_kg = product_6_weight_g / 1000
+
+
+# Section header
+print("COSTS OF PRODUCTS")
 
 # Product Cost (inputted as a float)
 product_1_cost = float(input("What is the cost of {} (enter like the ticket price, e.g. $12.50)? $".format
@@ -103,6 +122,14 @@ product_4_unit_price = product_4_cost / product_4_weight_kg
 product_5_unit_price = product_5_cost / product_5_weight_kg
 product_6_unit_price = product_6_cost / product_6_weight_kg
 
+# To make the output look nice
+print()
+
+
+# Section header
+print("DATA OF ALL PRODUCTS")
+
+# To make the output look nice
 print()
 
 # Print statements that print the users inputs and computer generated ones all at once
@@ -128,7 +155,7 @@ print("{}:  Weight: {} grams    Weight: {:.3f} kilograms    Cost: ${:.2f}   Unit
 print()
 
 # Recommendations (header text)
-print(" *** RECOMMENDATIONS *** ")
+print("RECOMMENDATIONS")
 
 # So the output looks nice
 print()
@@ -171,7 +198,7 @@ if product_6_unit_price <= budget:
 
 # If none of the if statements above requirements are meet
 else:
-    print(" <> There are no recommendations <> ")
+    print(" <> There are no/no more recommendations <> ")
 
 
 # Lists of all of the users inputted data
