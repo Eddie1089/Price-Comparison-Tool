@@ -202,7 +202,7 @@ else:
     # To make the output look nice
     print()
     # The comment on line 199
-    print(" <> There are no/no more recommendations <> ")
+    print(" <> There are no more recommendations / recommendations to be added <> ")
 
 
 # Lists of all of the users inputted data
