@@ -198,6 +198,9 @@ if product_6_unit_price <= budget:
 
 # If none of the if statements above requirements are meet
 else:
+    # To make the output look nice
+    print()
+    # The comment on line 199
     print(" <> There are no/no more recommendations <> ")
 
 
