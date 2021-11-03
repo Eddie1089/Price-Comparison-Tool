@@ -38,6 +38,7 @@ print("After you have answered all of the questions you will presented with tabl
       "information that you have entered.")
 print("And some computer generated numbers there as well. The computer will also recommend which of your "
       "entered products you should buy based of the unit price per kilogram.")
+print("This program is designed to compare 6 different products against each other")
 
 # To make the output look nice
 print()
@@ -58,12 +59,12 @@ print()
 print("NAMES OF PRODUCTS")
 
 # Names of products (inputted as a string)
-product_1_name = input("What is the name of this product? ").title()
-product_2_name = input("What is the name of this product? ").title()
-product_3_name = input("What is the name of this product? ").title()
-product_4_name = input("What is the name of this product? ").title()
-product_5_name = input("What is the name of this product? ").title()
-product_6_name = input("What is the name of this product? ").title()
+product_1_name = input("What is the name of product 1? ").title()
+product_2_name = input("What is the name of product 2? ").title()
+product_3_name = input("What is the name of product 3? ").title()
+product_4_name = input("What is the name of product 4? ").title()
+product_5_name = input("What is the name of product 5? ").title()
+product_6_name = input("What is the name of product 6? ").title()
 
 # To make the output look nice
 print()
